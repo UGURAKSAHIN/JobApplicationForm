@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Job Application Form</h1>
+        </div>
+        <form action="#!" method="post" enctype="multipart/form-data">
+            <fieldset class="grid">
+                <legend>Candidate information</legend>
+                <div class="form-group">
+                    <label for="name">Full Name:<span class="required">*</span></label>
+                    <input type="text" id="name" name="name" placeholder="Please enter full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="surname">Surname:<span class="required">*</span></label>
+                    <input type="text" id="surname" name="surname" placeholder="Please enter surname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:<span class="required">*</span></label>
+                    <input type="tel" id="phone" name="phone" placeholder="+90 5xx xxx xx xx" required>
+                </div>
+                <div class="form-group">
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="Please enter city">
+            </div>
+            
+            <div class="form-group">
+                <label for="position">Position Applied For<span class="required">*</span></label>
+                <select id="position" name="position" required>
+                    <option value="">Select a position</option>
+                    <option value="frontend">Front-End Developer</option>
+                    <option value="backend">Back-End Developer</option>
+                    <option value="fullstack">Full-Stack Developer</option>
+                    <option value="designer">UI/UX Designer</option>
+                    <option value="pm">Project Manager</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="salary">Expected salary(₺):</label>
+                <input type="number" id="salary" name="salary" placeholder="Ex: 25000₺" min="0" step="1000">
+                </div>
+
+                <div class="form-group">
+                    <label for="linkedin">Linkedin Profile:</label>
+                    <input type="url" id="linkedin" name="linkedin" placeholder="Linkedin Profile URL">
+                </div>
+                <div class="form-group">
+                    <label for="experience">Work Experience:</label>
+                    <textarea id="experience" name="experience" placeholder="Describe your work experience"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="cv">Upload CV:<span class="required">*</span></label>
+                    <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+                    <p class="help-text">Upload only PDF and Word file. (Max. 5 MB)</p>
+                </div>
+
+            <div class="form-group full-width">
+                <label>Work Preferences</label>
+                <div class="inline-group">
+                    <label>
+                        <input type="radio" name="work_preference" value="remote" checked>
+                        Remote
+                    </label>
+                    <label>
+                        <input type="radio" name="work_preference" value="onsite">
+                        On-site
+                    </label>
+                    <label>
+                        <input type="radio" name="work_preference" value="hybrid">
+                        Hybrid 
+                    </label>           
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="kvkk" name="kvkk" required>
+                    <label for="kvkk">I have read and agree to the <a href="#!">KVKK</a> terms.<span class="required">*</span></label>
+                </div>
+            </div>
+            <div class="actions">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-secondary">Clean</button>
+            </div>
+            </fieldset>
+        </form>
+    </div>
+    <script>
+    </script>
+</body>
+</html>
