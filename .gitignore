@@ -19,15 +19,9 @@ out/
 .parcel-cache/
 webpack-stats.json
 
-.sass-cache/
-*.css.map
-*.sass.map
-*.scss.map
-
 
 .vscode
 .history/
-
 .idea/
 
 *.sublime-workspace
