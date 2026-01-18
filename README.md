@@ -43,7 +43,7 @@ Easily extendable for company requirements (position, experience, education, etc
 4.Form can be integrated into any backend frameworks(Node.js,JQuery etc.)
 
 # UI Preview
-<img width="2176" height="1200" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/edc74ac2-642a-42e3-a963-79a7908e7304" />
+<img width="2176" height="1200" src="https://github.com/user-attachments/assets/edc74ac2-642a-42e3-a963-79a7908e7304" />
 
 # Contact
 If you want to collaborate or give feedback:
